@@ -1,0 +1,41 @@
+.block {  
+  border: 2px solid gray;
+  margin: 5px;
+  padding: 5px;
+  
+}
+.main-block {
+  min-height: 100vh;
+}
+.upinfoblock {
+    min-height: 50px;
+}
+.downinfoblock {
+  min-height: 50px;
+  justify-content: space-between
+}
+#root {
+  font-size: 0.8rem;
+}
+.rowblock {
+  display: flex;
+  flex-wrap: wrap;
+}
+.columnblock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.newsblock {
+  flex-grow: 3;
+}
+.list {
+  list-style-type: none;
+}
+li {
+  margin: 5px;
+}
+.downcolumnblock {
+  flex-grow: 1;
+}
